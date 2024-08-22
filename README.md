@@ -10,7 +10,7 @@ The aim of this study was to identify clinical features most strongly associated
 ```
 ├── notebooks/
 │   ├── Bergen_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Bergen Triage data 
-│   ├── Trondheim_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Trondhein Triage data
+│   ├── Trondheim_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Trondheim Triage data
 ├── util/
    ├── functions.py   # Helper functions.
 ├── data/ # available upon request.
