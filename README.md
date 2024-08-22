@@ -1,32 +1,24 @@
 # Project Title
 
-`Leveraging machine learning to identify subgroups of misclassified patients in the emergency department – a multi-center proof-of-concept study`
+`Using synthetic data in Child and Adolescent Mental Healthcare – a resource planning feasibility study`
 
 ## Description
 
-The aim of this study was to identify clinical features most strongly associated with triage misclassification using a machine learning classification model to capture non-linear relationships
+This project explores the use of synthetic data for resource planning in child and adolescent mental healthcare (CAMH). By leveraging synthetic data, we aim to optimize resource allocation while preserving patient privacy. The study covers data generation, validation, model development, and a feasibility analysis.
 
 ## Project Strucutre
 
 ├── notebooks/
-│ ├── Bergen_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Bergen Triage data 
-│ │ 
+│ ├── exploratory/  
+│ │ ├── prepare_real_data.ipynb # Jupyter notebook for exploring and transforming/anonymizing data befor synthetising
 │ │
-│ ├── Trondheim_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Trondhein Triage data 
-│ │ 
-      
-	
-│
-├── requirements.txt # List of Python dependencies
-├── README.md # Project overview and instructions
-├── LICENSE # License for the project
-└── .gitignore # Git ignore file
-
-├── notebooks/
-│ ├── Bergen_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Bergen Triage data
-│ │
-│ ├── Trondheim_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Trondhein Triage data
-│ │ 
+│ ├── modelling/  
+│ │ ├── synthetise and evaluate quality and privacy/ 
+      ├── synthetise_and_evaluate.ipynb.ipynb # Jupyter notebook for synthetic data modeling and quality/privacy evaluation
+	├── transform and evaluate utilty/
+	  ├── 1_prepare_data.ipynb # Jupyter notebook for data preparation for utility evaluation
+	  ├── 2_classification.ipynb # Train-Synthetic-Test-Real (TSTR) evaluation
+	  ├── 3_clustering.ipynb # Jupyter notebook for  Different distance-based clustering algorithms for mixed  synthetic/real data.
 │
 ├── requirements.txt # List of Python dependencies
 ├── README.md # Project overview and instructions
@@ -39,7 +31,7 @@ Follow these steps:
 
 1. **Clone the repo**
 
-`git clone https://github.com/mounirHai/triage.git`
+`git clone https://github.com/mounirHai/SynthCAMH.git`
 
 `cd SynthCAMH`
 
