@@ -1,24 +1,16 @@
 # Project Title
 
-`Using synthetic data in Child and Adolescent Mental Healthcare – a resource planning feasibility study`
+`Leveraging machine learning to identify subgroups of misclassified patients in the emergency department – a multi-center proof-of-concept study`
 
 ## Description
 
-This project explores the use of synthetic data for resource planning in child and adolescent mental healthcare (CAMH). By leveraging synthetic data, we aim to optimize resource allocation while preserving patient privacy. The study covers data generation, validation, model development, and a feasibility analysis.
+The aim of this study was to identify clinical features most strongly associated with triage misclassification using a machine learning classification model to capture non-linear relationships.
 
 ## Project Strucutre
 ```
 ├── notebooks/
-│   ├── exploratory/  
-│   │   ├── prepare_real_data.ipynb   # Jupyter notebook for exploring and preparing real data
-│   │
-│   ├── modelling/  
-│   │   ├── synthetise and evaluate quality and privacy/
-            ├── synthetise_and_evaluate.ipynb.ipynb # Jupyter notebook for synthetic data modeling and quality/privacy evaluation.
-        ├── transform and evaluate utilty/
-            ├── prepare_data.ipynb # Jupyter notebook for data preparation for utility evaluation
-            ├── classification.ipynb # Train-Synthetic-Test-Real (TSTR) evaluation
-            ├── clustering.ipynb # Jupyter notebook for  Different distance-based clustering algorithms for mixed  synthetic/real data.
+│   ├── Bergen_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Bergen Triage data 
+│   ├── Trondheim_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Trondhein Triage data
 ├── util/
    ├── functions.py   # Helper functions.
 ├── data/ # available upon request.
@@ -35,7 +27,7 @@ Follow these steps:
 
 1. **Clone the repo**
 
-`git clone https://github.com/mounirHai/SynthCAMH.git`
+`git clone https://github.com/mounirHai/triage.git`
 
 `cd SynthCAMH`
 
