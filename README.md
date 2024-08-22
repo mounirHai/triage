@@ -9,6 +9,20 @@ The aim of this study was to identify clinical features most strongly associated
 ## Project Strucutre
 
 ├── notebooks/
+│ ├── Bergen_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Bergen Triage data 
+│ │ 
+│ │
+│ ├── Trondheim_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Trondhein Triage data 
+│ │ 
+      
+	
+│
+├── requirements.txt # List of Python dependencies
+├── README.md # Project overview and instructions
+├── LICENSE # License for the project
+└── .gitignore # Git ignore file
+
+├── notebooks/
 │ ├── Bergen_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Bergen Triage data
 │ │
 │ ├── Trondheim_UnderTriage.ipynb  # notebook feauture engeneering + classification + interpretability with SHAP , Trondhein Triage data
